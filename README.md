@@ -1,2 +1,3 @@
 # Settable-digital-clock-with-4-digit-7-segment-display
-.
+The task is to implement a digital clock showing the remaining time on the 4-digit 7-segment display of the Basys3 board using VHDL programming language. The clock has two modes of operation: “SET” and “GO”. The central button on the board toggles between the two. In “SET” mode, the user is allowed to set the initial time in hours and minutes (the seconds will always be 0). The up and down buttons can be used to increment or decrement the hours/minutes in a range from 0 to 24 or 0 to 60. The left and right buttons can be used to switch hours/minutes. If the current value of the minutes is different from zero, pushing the up button moves to the next integer number of hours (rounds up) while pushing the down button moves to the previous integer number of hours (rounds down). In “GO” mode, the timer counts up from the current value at a rate of approximately 1 second. 
+
